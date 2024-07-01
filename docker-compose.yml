@@ -1,0 +1,9 @@
+# docker-compose file
+version: '3.8'
+
+services:
+  django:
+    container_name: django
+    build:
+      context: dcelery
+    image enhancer
